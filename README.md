@@ -27,3 +27,7 @@ git checkout -b {filename} - to make a new branch
 git branch -d {filename} - to delete the branch. note- you can't delete the same branch you're on.first change the branch and then delete the desired branch
 <br>
 git push -u origin main - to let git know all the push and updates are to be done on the main branch (-u is used for it so that next  time when you push something to remote repo you directly write git push instead of git push origin main) 
+<br>
+git diff {branch name} - to compare the current branch with the other mentioned branch.
+<br>
+git merge {branch name} - used to merge the current branch with main or desired branch. note- its good practice to merge the features branch to main branch and not the other way around. mostly use pull request(PR) instead of merge method.
