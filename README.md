@@ -1,4 +1,4 @@
-# This is a local repo - feature1 branch
+# This is a local repo
 
 # Git Commands 
 <br>
