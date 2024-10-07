@@ -31,3 +31,5 @@ git push -u origin main - to let git know all the push and updates are to be don
 git diff {branch name} - to compare the current branch with the other mentioned branch.
 <br>
 git merge {branch name} - used to merge the current branch with main or desired branch. note- its good practice to merge the features branch to main branch and not the other way around. mostly use pull request(PR) instead of merge method.
+<br>
+git pull origin main - used to merge new features from the different branch to main branch and then show that changes in local repo too.
